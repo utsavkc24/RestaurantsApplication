@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">लंचबाक्स</string>
+    <string name="indian">भारतीय</string>
+    <string name="american">अमेरिकन</string>
+    <string name="mexican">मैक्सिकन</string>
+    <string name="chinese">चीनी</string>
+    <string name="chicken_fajitas">चिकन फ़ैजिटास</string>
+    <string name="pizza">पिज़्ज़ा</string>
+    <string name="burger">बर्गर</string>
+    <string name="kung_pao_chicken">कुंग पाओ चिकन</string>
+    <string name="roasted_chicken">भुना मुर्गा</string>
+    <string name="ramen">रेमन</string>
+    <string name="butter_chicken">बटर चिकन</string>
+    <string name="shawarma">शवरमा</string>
+    <string name="biryani">बिरयानी</string>
+    <string name="nachos">मकई के नमकीन</string>
+    <string name="cake">केक</string>
+    <string name="taco">टैको</string>
+    <string name="blueberry_cheesecake">ब्लूबेरी चीज़केक</string>
+    <string name="price">मूल्य :</string>
+    <string name="rating">रेटिंग :</string>
+</resources>

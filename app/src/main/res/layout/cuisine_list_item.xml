@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/photoImageView"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/biryani"/>
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/field_text_view_padding"
+                android:paddingEnd="@dimen/field_text_view_padding"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                tools:text="Biryani" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/field_text_view_padding"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/price" />
+
+                <TextView
+                    android:id="@+id/priceTextView"
+                    style="@style/NonTitle"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="@color/colorPrimaryDark"
+                    android:drawableEnd="@drawable/ic_baseline_attach_money_24"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:paddingEnd="@dimen/field_text_view_padding"
+                    tools:text="100" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/field_text_view_padding"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/rating" />
+
+                <TextView
+                    android:id="@+id/ratingTextView"
+                    style="@style/NonTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableEnd="@drawable/ic_baseline_star_24"
+                    android:drawableTint="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    tools:text="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/minus"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:text="+" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

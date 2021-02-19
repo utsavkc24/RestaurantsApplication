@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LunchBox</string>
+    <string name="indian">Indian</string>
+    <string name="american">American</string>
+    <string name="mexican">Mexican</string>
+    <string name="chinese">Chinese</string>
+    <string name="chicken_fajitas">Chicken Fajitas</string>
+    <string name="pizza">Pizza</string>
+    <string name="burger">Burger</string>
+    <string name="kung_pao_chicken">Kung Pao Chicken</string>
+    <string name="roasted_chicken">Roasted Chicken</string>
+    <string name="ramen">Ramen</string>
+    <string name="butter_chicken">Butter Chicken</string>
+    <string name="shawarma">Shawrama</string>
+    <string name="biryani">Biryani</string>
+    <string name="nachos">Nachos</string>
+    <string name="cake">Cake</string>
+    <string name="taco">Taco</string>
+    <string name="blueberry_cheesecake">Blueberry Cheesecake</string>
+    <string name="price">Price :</string>
+    <string name="rating">Rating :</string>
+</resources>
